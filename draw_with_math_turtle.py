@@ -4,6 +4,8 @@ from decimal import Decimal
 from equation_distanc_XY import dist
 from equation_angle_XY import angle
 from equation_squar_root import squar
+from draw_axis import draw_axis
+draw_axis(300)
 for i in range(0 , 100):
     x1 = i
     y1 = i*i
